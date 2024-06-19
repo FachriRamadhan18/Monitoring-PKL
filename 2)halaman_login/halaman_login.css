@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-left: 10px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal; /* Changed to normal */
+}
+
+.form-group input {
+    width: calc(100% - 12px);
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 23px;
+}
+
+button {
+    margin-top: 17px;
+    margin-left: 74px;
+    width: 150px;
+    padding: 8px;
+    background-color: #927A7A;
+    color: #fff;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #827A7A;
+}
+
+.link {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Center text alignment */
+    display: block; /* Make it a block element to apply margin auto */
+    margin: 10px auto; /* Center the block element */
+}
+
+.status {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.pp {
+    margin-bottom: 1px;
+}
